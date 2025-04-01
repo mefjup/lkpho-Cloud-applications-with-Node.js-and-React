@@ -4,4 +4,5 @@ module.exports.getDate = function getDate() {
     const { DateTime } = require("luxon");
     let aestTime = DateTime.now().setZone("Australia/Brisbane").toLocaleString(DateTime.DATETIME_MED);
     return aestTime; // Return the formatted date and time
+    //v2
 };
